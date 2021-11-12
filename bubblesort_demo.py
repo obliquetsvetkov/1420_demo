@@ -1,7 +1,7 @@
 import pdb #import python debugger
 
 L = [30, 21, 16, 66, 78, 109, 1, 4, 52]
-L2 = [1,2,3,4,5]
+
 print(L) #show list before sorting algorithm
 
 def bubbleSort(lis): # function for sorting algo
@@ -14,7 +14,7 @@ def bubbleSort(lis): # function for sorting algo
                 if a > b:
                     lis[j] = b
                     lis[j + 1] = a
-        #print(lis)
+        print(lis)
     return lis
 
 pdb.set_trace() # set a trace for the debugger
