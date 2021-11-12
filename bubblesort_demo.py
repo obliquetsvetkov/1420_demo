@@ -1,6 +1,7 @@
 import pdb #import python debugger
 
 L = [30, 21, 16, 66, 78, 109, 1, 4, 52]
+L2 = [1,2,3,4,5]
 print(L) #show list before sorting algorithm
 
 def bubbleSort(lis): # function for sorting algo
